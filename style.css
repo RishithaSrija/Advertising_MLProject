@@ -1,0 +1,91 @@
+.stApp {
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+
+    background:
+        url("https://api.iconify.design/noto/television.svg") left 4% top 8% no-repeat,
+        url("https://api.iconify.design/noto/radio.svg") right 6% top 15% no-repeat,
+        url("https://api.iconify.design/noto/newspaper.svg") left 10% bottom 18% no-repeat,
+
+        /* url("https://api.iconify.design/mdi/television-classic.svg") left 5% top 10% no-repeat,
+        url("https://api.iconify.design/mdi/radio.svg") right 8% top 18% no-repeat,
+        url("https://api.iconify.design/mdi/newspaper.svg") left 12% bottom 15% no-repeat, */
+        url("https://api.iconify.design/mdi/sale.svg") right 18% bottom 12% no-repeat,
+        linear-gradient(135deg, #8bd6f6 0%, #d6e8a4 50%, #90c8e9 100%);
+
+    background-size: 120px,100px,110px,130px,cover;
+    opacity: 1;
+}
+
+/* ---------------- CARDS ---------------- */
+.card {
+    background: rgba(8, 25, 45, 0.78);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 16px;
+    padding: 26px;
+    color: #e0f2fe;
+    margin-bottom: 28px;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow:
+        0 0 22px rgba(56, 189, 248, 0.25),
+        inset 0 0 10px rgba(56, 189, 248, 0.12);
+}
+/* ---------------- HEADINGS ---------------- */
+h1 {
+    font-size: 38px;
+    color: #7dd3fc;
+    text-shadow: 0 0 10px rgba(125, 211, 252, 0.6);
+}
+h2 {
+    font-size: 26px;
+    color: #38bdf8;
+}
+h3 {
+    font-size: 22px;
+    color: #22d3ee;
+}
+/* ---------------- TEXT ---------------- */
+p, label {
+    font-size: 16px;
+    color: #dbeafe;
+    line-height: 1.7;
+}
+/* ---------------- METRICS ---------------- */
+div[data-testid="metric-container"] {
+    background: linear-gradient(135deg,rgba(2, 40, 75, 0.9),rgba(8, 80, 140, 0.85));
+    border-radius: 18px;
+    padding: 18px;
+    border-left: 6px solid #38bdf8;
+    box-shadow: 0 0 16px rgba(56, 189, 248, 0.45);
+}
+
+div[data-testid="metric-container"] * {
+    color: #e0f2fe !important;
+}
+/* ---------------- SLIDERS ---------------- */
+div[data-testid="stSlider"] {
+    background: rgba(6, 35, 60, 0.7);
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid rgba(56, 189, 248, 0.35);
+}
+/* ---------------- DATAFRAME ---------------- */
+div[data-testid="stDataFrame"] {
+    background: rgba(4, 28, 50, 0.85);
+    border-radius: 14px;
+    padding: 10px;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+}
+/* ---------------- PREDICTION BOX ---------------- */
+.prediction-box {
+    background: linear-gradient(135deg,#0ea5e9,#0369a1,#022c55);
+    color: #ecfeff;
+    padding: 30px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 18px;
+    margin-top: 25px;
+    box-shadow: 0 0 28px rgba(14, 165, 233, 0.85);
+}
